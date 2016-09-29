@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Project</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+          <div class="formleft">
+                  <h1> Minnesota Vikings Player Roster</h1>
+                  <br>
+                  <br>
+                  <h3> Enter players number below to see who they are</h3>
+                  <input id="playerLookup" type="text" placeholder="Player lookup">
+                <button type="button" onclick="playerRoster(document.getElementById('playerLookup').value)">Submit</button>
+          </div>
+
+          <div class="formright">
+            <div id="playerInfo">
+
+            </div>
+          </div>
+      </div>
+
+
+    <script src="app.js"</script>
+  </body>
+</html>
